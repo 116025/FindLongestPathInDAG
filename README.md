@@ -23,11 +23,10 @@ Out Put For Test Data
 
 📈 Performance & Analysis
  Category	Description
- 
-✅ Time Complexity	O(V + E) — linear in the number of vertices and edges
-✅ Space Complexity	O(V + E) — for adjacency lists, recursion stack, and distance map
-✅ Scalability	Efficient for large DAGs (1,000+ vertices)
-✅ Graph Type	Directed, acyclic only (no cycle handling)
+  ✅ Time Complexity	O(V + E) — linear in the number of vertices and edges
+  ✅ Space Complexity	O(V + E) — for adjacency lists, recursion stack, and distance map
+  ✅ Scalability	Efficient for large DAGs (1,000+ vertices)
+  ✅ Graph Type	Directed, acyclic only (no cycle handling)
 
 💡 Optimizations & Future Improvements
 ✅ Add memoization to cache repeated path computations
