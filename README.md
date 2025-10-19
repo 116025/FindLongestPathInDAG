@@ -25,10 +25,12 @@ Using **dynamic programming**, the algorithm iterates through the vertices in to
 ---
 
 ## 🧪 **Input Test Data**
-<img width="1359" height="767" alt="image" src="https://github.com/user-attachments/assets/2b017d0b-1faa-4fae-9bd2-780d03ed5728" />
+<img width="1360" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/29536344-1de4-45ca-a9be-0b6cb5348220" />
+
 
 ## 🧪 **Output Test Data**
-<img width="1353" height="767" alt="image" src="https://github.com/user-attachments/assets/90853ba4-a4d6-42f6-91e1-047700b10b05" />
+<img width="1360" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/8b27d160-a494-4903-aba5-ac0359beeaf9" />
+
 
 # 🧠 Performance & Analysis
 
