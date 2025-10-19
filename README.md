@@ -21,26 +21,34 @@ Input Test Data
 Out Put For Test Data
 <img width="1353" height="767" alt="image" src="https://github.com/user-attachments/assets/90853ba4-a4d6-42f6-91e1-047700b10b05" />
 
-📈 Performance & Analysis
- Category	Description
-  ✅ Time Complexity	O(V + E) — linear in the number of vertices and edges
-  ✅ Space Complexity	O(V + E) — for adjacency lists, recursion stack, and distance map
-  ✅ Scalability	Efficient for large DAGs (1,000+ vertices)
-  ✅ Graph Type	Directed, acyclic only (no cycle handling)
+# 🧠 Performance & Analysis
 
-💡 Optimizations & Future Improvements
-✅ Add memoization to cache repeated path computations
-✅ Replace recursive DFS with iterative stack-based DFS for deeper graphs
-✅ Enhance handling of disconnected components
-✅ Extend functionality to identify multiple longest paths instead of just lengths
+### **Category Description**
 
-🧪 How to Run
-Clone or download the repository.
-Compile and run the program:
-javac LongestPathInDAG.java
-java LongestPathInDAG
-The main() method contains a predefined DAG example.
-Modify or add your own edges to test different scenarios.
+- ✅ **Time Complexity:** `O(V + E)` — linear in the number of vertices and edges  
+- ✅ **Space Complexity:** `O(V + E)` — for adjacency lists, recursion stack, and distance map  
+- ✅ **Scalability:** Efficient for large DAGs (1,000+ vertices)  
+- ✅ **Graph Type:** Directed, acyclic only (no cycle handling)
+
+---
+
+# 💡 Optimizations & Future Improvements
+
+- ✅ Add memoization to cache repeated path computations  
+- ✅ Replace recursive DFS with iterative stack-based DFS for deeper graphs  
+- ✅ Enhance handling of disconnected components  
+- ✅ Extend functionality to identify multiple longest paths instead of just lengths  
+
+---
+
+# 🧩 How to Run
+
+1. Clone or download the repository.  
+2. Compile and run the program:
+
+   ```bash
+   javac LongestPathInDAG.java
+   java LongestPathInDAG
 
 🧍‍♂️ Author
 Adonay Gebrerufael
