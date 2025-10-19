@@ -1,24 +1,33 @@
-Longest Path in a Directed Acyclic Graph (DAG)
+# **Longest Path in a Directed Acyclic Graph (DAG)**
 
-This project provides an efficient Java implementation for finding the longest directed path from a given start vertex in a Directed Acyclic Graph (DAG).
+This project provides an efficient Java implementation for finding the **longest directed path** from a given start vertex in a **Directed Acyclic Graph (DAG)**.
 
+---
 
-🧠 Overview
-A Directed Acyclic Graph (DAG) is a structure composed of vertices and directed edges with no cycles.
-This program determines the longest path length (in terms of edges) starting from a given vertex using topological sorting and dynamic programming.
+## 🧠 **Overview**
 
-⚙️ How It Works
-Graph Representation:
-The graph is implemented with an adjacency list, optimized for sparse and large graphs.
-Topological Sort:
-The vertices are ordered using a Depth-First Search (DFS)-based topological sort, ensuring all dependencies are processed before each vertex.
-Longest Path Calculation:
-Using dynamic programming, the algorithm iterates through the vertices in topological order, relaxing edge distances to determine the maximum distance from the start vertex to all reachable nodes.
+A **Directed Acyclic Graph (DAG)** is a structure composed of vertices and directed edges with no cycles.  
+This program determines the **longest path length (in terms of edges)** starting from a given vertex using **topological sorting** and **dynamic programming**.
 
-Input Test Data
+---
+
+## ⚙️ **How It Works**
+
+### **1. Graph Representation**
+The graph is implemented using an **adjacency list**, optimized for sparse and large graphs.
+
+### **2. Topological Sort**
+Vertices are ordered using a **Depth-First Search (DFS)**-based topological sort, ensuring all dependencies are processed before each vertex.
+
+### **3. Longest Path Calculation**
+Using **dynamic programming**, the algorithm iterates through the vertices in topological order, relaxing edge distances to determine the maximum distance from the start vertex to all reachable nodes.
+
+---
+
+## 🧪 **Input Test Data**
 <img width="1359" height="767" alt="image" src="https://github.com/user-attachments/assets/2b017d0b-1faa-4fae-9bd2-780d03ed5728" />
 
-Out Put For Test Data
+## 🧪 **Output Test Data**
 <img width="1353" height="767" alt="image" src="https://github.com/user-attachments/assets/90853ba4-a4d6-42f6-91e1-047700b10b05" />
 
 # 🧠 Performance & Analysis
