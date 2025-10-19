@@ -25,7 +25,8 @@ Using **dynamic programming**, the algorithm iterates through the vertices in to
 ---
 
 ## 🧪 **Input Test Data**
-<img width="1360" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/29536344-1de4-45ca-a9be-0b6cb5348220" />
+<img width="1360" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/58507856-f69b-42fd-8a38-11e267dfe7b0" />
+
 
 
 ## 🧪 **Output Test Data**
