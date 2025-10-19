@@ -1,7 +1,6 @@
 Longest Path in a Directed Acyclic Graph (DAG)
 
 This project provides an efficient Java implementation for finding the longest directed path from a given start vertex in a Directed Acyclic Graph (DAG).
-It was developed as part of a technical assessment for Mindbank Consulting Group / U.S. Fish and Wildlife Service and demonstrates strong graph-algorithm design, scalability, and clean coding practices.
 
 
 🧠 Overview
@@ -23,11 +22,11 @@ Out Put For Test Data
 <img width="1353" height="767" alt="image" src="https://github.com/user-attachments/assets/90853ba4-a4d6-42f6-91e1-047700b10b05" />
 
 📈 Performance & Analysis
-Category	Description
-Time Complexity	O(V + E) — linear in the number of vertices and edges
-Space Complexity	O(V + E) — for adjacency lists, recursion stack, and distance map
-Scalability	Efficient for large DAGs (1,000+ vertices)
-Graph Type	Directed, acyclic only (no cycle handling)
+ Category	Description
+✅ Time Complexity	O(V + E) — linear in the number of vertices and edges
+✅ Space Complexity	O(V + E) — for adjacency lists, recursion stack, and distance map
+✅ Scalability	Efficient for large DAGs (1,000+ vertices)
+✅ Graph Type	Directed, acyclic only (no cycle handling)
 
 💡 Optimizations & Future Improvements
 ✅ Add memoization to cache repeated path computations
